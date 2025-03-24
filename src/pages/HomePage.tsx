@@ -16,7 +16,7 @@ const HomePage = () => {
           className="text-center mb-10"
         >
           <h1 className="text-5xl md:text-6xl font-bold text-finance-charcoal tracking-tight mb-4">
-            WealthBridge
+              
           </h1>
           <p className="text-finance-gray text-xl max-w-2xl mx-auto mb-8">
             Your bridge to financial freedom and literacy

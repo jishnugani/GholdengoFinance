@@ -40,7 +40,7 @@ const Dashboard = () => {
 
   return (
     <FinanceProvider>
-      <Layout activeTab={activeTab} setActiveTab={setActiveTab} appName="WealthBridge">
+      <Layout activeTab={activeTab} setActiveTab={setActiveTab} appName="">
         <TabContent activeTab={activeTab} />
       </Layout>
     </FinanceProvider>

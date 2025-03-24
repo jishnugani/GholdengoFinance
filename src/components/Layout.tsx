@@ -15,7 +15,7 @@ interface LayoutProps {
   appName?: string;
 }
 
-const Layout = ({ children, activeTab, setActiveTab, appName = "WealthBridge" }: LayoutProps) => {
+const Layout = ({ children, activeTab, setActiveTab, appName = "" }: LayoutProps) => {
   const navigate = useNavigate();
 
   return (
